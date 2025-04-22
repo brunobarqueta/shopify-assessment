@@ -50,37 +50,18 @@
         "cta_link": "shopify://collections/all"
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
+    "featured_products_homepage_jUQKXf": {
+      "type": "featured-products-homepage",
       "settings": {
-        "collection": "all",
-        "products_to_show": 8,
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "columns_desktop": 4,
-        "enable_desktop_slider": false,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
+        "heading": "Endless Support for Every Health Journey",
+        "subheading": "VitaLuxe supplements are crafted with your future in mind—formulated by experts, rooted in science, and designed to work as hard as you do. Because your health deserves nothing less.",
+        "product_collection": "",
+        "shop_all_label": "SHOP ALL"
       }
     }
   },
   "order": [
     "hero_Nn9869",
-    "featured_collection"
+    "featured_products_homepage_jUQKXf"
   ]
 }
