@@ -58,10 +58,31 @@
         "product_collection": "",
         "shop_all_label": "SHOP ALL"
       }
+    },
+    "split_banner_QmWUDA": {
+      "type": "split-banner",
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_10.jpg",
+        "heading": "The Essentials for Thriving Health",
+        "subheading": "<p>From energy to recovery, we've got your back—and every other muscle, joint, and cell in between.</p>",
+        "button_label": "GET STARTED",
+        "button_link": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "heading_alignment": "right",
+        "subheading_alignment": "right",
+        "content_alignment": "flex-end",
+        "content_gap": 0
+      }
     }
   },
   "order": [
     "hero_Nn9869",
-    "featured_products_homepage_jUQKXf"
+    "featured_products_homepage_jUQKXf",
+    "split_banner_QmWUDA"
   ]
 }
