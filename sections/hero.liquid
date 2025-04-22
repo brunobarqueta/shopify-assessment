@@ -5,7 +5,7 @@
     <div class="hero-content">
       {% if section.settings.hero_title_image %}
         <img
-          src="{{ section.settings.hero_title_image | img_url: 'master' }}"
+          src="{{ section.settings.hero_title_image | img_url: '866x' }}"
           alt="Hero Title Image"
           loading="lazy"
         >
@@ -18,7 +18,7 @@
     </div>
     {% if section.settings.hero_image %}
       <img
-        src="{{ section.settings.hero_image | img_url: 'master' }}"
+        src="{{ section.settings.hero_image | img_url: '1440x' }}"
         alt="Hero Image"
         loading="lazy"
         class="hero-image"
