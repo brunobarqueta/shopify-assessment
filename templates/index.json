@@ -1,5 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "hero_Nn9869": {
+      "type": "hero",
+      "blocks": {
+        "usp_CgmD7b": {
+          "type": "usp",
+          "settings": {
+            "icon": "shopify://shop_images/Group.svg",
+            "heading": "High-Quality",
+            "description": "Science-Backed Formulas"
+          }
+        },
+        "usp_hb93qd": {
+          "type": "usp",
+          "settings": {
+            "icon": "shopify://shop_images/Group_24.svg",
+            "heading": "By healthcare providers",
+            "description": "Experts in cardiovascular health"
+          }
+        },
+        "usp_4TUXPH": {
+          "type": "usp",
+          "settings": {
+            "icon": "shopify://shop_images/ingredients_1_1.svg",
+            "heading": "Premium Ingredients",
+            "description": "High Quality, Pure and Potent"
+          }
+        }
+      },
+      "block_order": [
+        "usp_CgmD7b",
+        "usp_hb93qd",
+        "usp_4TUXPH"
+      ],
+      "settings": {
+        "hero_image": "shopify://shop_images/Rectangle_5.jpg",
+        "hero_title_image": "shopify://shop_images/Group_441_1.png",
+        "bg_color": "#1e1e1e",
+        "cta_label": "Shop Now",
+        "cta_link": "shopify://collections/all"
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -29,33 +79,32 @@
       "settings": {
         "image_overlay_opacity": 40,
         "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
         "image_behavior": "none",
+        "desktop_content_position": "bottom-center",
         "desktop_content_alignment": "center",
+        "show_text_box": false,
         "color_scheme": "scheme-3",
-        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
+        "mobile_content_alignment": "center",
         "show_text_below": false
       }
     },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
+        "collection": "all",
+        "products_to_show": 8,
         "title": "Featured products",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "swipe_on_mobile": false,
+        "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -63,12 +112,14 @@
         "show_rating": false,
         "quick_add": "none",
         "columns_mobile": "2",
+        "swipe_on_mobile": false,
         "padding_top": 44,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "hero_Nn9869",
     "image_banner",
     "featured_collection"
   ]
