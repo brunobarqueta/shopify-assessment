@@ -1,0 +1,248 @@
+.supplements-hero {
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.supplements-hero .main-heading {
+    margin: 20px 0;
+}
+
+.supplements-hero .cta-button,
+.custom-product-grid__footer .cta-button {
+    margin: 50px auto 0 auto;
+}
+
+.cta-button {
+    background-color: #e9128a;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    padding: 5px 28px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: medium;
+    line-height: 40px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: fit-content;
+    margin: 0 auto;
+    transition: background-color 0.3s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.cta-button:hover {
+    background-color: #fe6bb2;
+}
+
+.supplements-hero .hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.supplements-hero .hero-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+
+.supplements-hero .hero-content img {
+    max-width: 866px;
+    margin: auto;
+}
+
+.usp-wrapper {
+    margin-top: -80px;
+    z-index: 100;
+    position: relative;
+}
+
+.usps {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    text-align: center;
+}
+
+.usp {
+    color: #fff;
+    display: flex;
+    gap: 14px;
+}
+
+.usp img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 1rem;
+}
+
+.usp h4 {
+    color: #fff;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: left;
+}
+
+.usp p {
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ccc;
+    margin: 0;
+}
+
+
+/*Featured products grid*/
+
+.custom-product-grid {
+    padding: 100px 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.custom-product-grid__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.custom-product-grid__heading {
+    max-width: 580px;
+    font-family: "Barlow", sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 90%;
+}
+
+.custom-product-grid__subheading {
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    max-width: 650px;
+    margin: 18px auto 28px;
+    line-height: 160%;
+}
+
+.custom-product-grid__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 127px;
+    row-gap: 70px;
+}
+
+.custom-product-grid__item {
+    width: 285px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.custom-product-grid__items {
+    max-width: calc(2 * 285px + 127px);
+    margin: 0 auto;
+}
+
+.custom-product-grid__item h3 {
+    font-family: "Barlow", sans-serif;
+    margin: 0;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+.custom-product-grid__item a {
+    text-decoration: none;
+}
+
+.custom-product-grid__item a img {
+    max-width: 285px;
+}
+
+.custom-product-grid__item .product-subtitle p {
+    color: #292126;
+    margin: 5px 0 0 0;
+    font-family: "Barlow", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+.custom-product-grid__item .product-price {
+    color: #292126;
+    margin: 18px 0 22px 0;
+    font-size: 20px;
+    font-family: "Barlow", sans-serif;
+    line-height: 16px;
+}
+
+.custom-product-grid__item img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Split Banner */
+
+.split-banner {
+    height: 538px;
+}
+
+.split-banner__grid {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.split-banner__image-container {
+    width: 50%;
+    height: 100%;
+}
+
+.split-banner__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.split-banner__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+
+.split-banner__heading {
+    max-width: 460px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 90%;
+}
+
+.split-banner__subheading p {
+    max-width: 460px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 20px;
+    margin: 40px 0 30px 0;
+    line-height: 160%;
+    font-weight: 400;
+}
+
+.split-banner__content .cta-button {
+    margin: 0;
+}
