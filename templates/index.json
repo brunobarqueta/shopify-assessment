@@ -58,10 +58,52 @@
         "product_collection": "",
         "shop_all_label": "SHOP ALL"
       }
+    },
+    "split_banner_QmWUDA": {
+      "type": "split-banner",
+      "settings": {
+        "image": "shopify://shop_images/Rectangle_10.jpg",
+        "heading": "The Essentials for Thriving Health",
+        "subheading": "<p>From energy to recovery, we've got your back—and every other muscle, joint, and cell in between.</p>",
+        "button_label": "GET STARTED",
+        "button_link": "",
+        "background_color": "#000000",
+        "text_color": "#ffffff",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_left": 0,
+        "padding_right": 0,
+        "heading_alignment": "right",
+        "subheading_alignment": "right",
+        "content_alignment": "flex-end",
+        "content_gap": 0
+      }
+    },
+    "split_banner_JR6YwN": {
+      "type": "split-banner",
+      "settings": {
+        "image": "shopify://shop_images/retired-senior-man-sitting-fitness-swiss-ball-living-room-doing-wellness-fitness-workout-streching-arm-muscles-using-aerobics-elastic-band.png",
+        "heading": "Every Health Journey Needs a Trusted Partner",
+        "subheading": "<p>We believe wellness starts with knowledge. That’s why we’re here to empower you with transparent, science-backed information on every product we make. Your health deserves the best.</p>",
+        "button_label": "LEARN MORE ABOUT US",
+        "button_link": "",
+        "background_color": "#ffffff",
+        "text_color": "#000000",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "padding_left": 20,
+        "padding_right": 20,
+        "heading_alignment": "left",
+        "subheading_alignment": "left",
+        "content_alignment": "flex-start",
+        "content_gap": 60
+      }
     }
   },
   "order": [
     "hero_Nn9869",
-    "featured_products_homepage_jUQKXf"
+    "featured_products_homepage_jUQKXf",
+    "split_banner_QmWUDA",
+    "split_banner_JR6YwN"
   ]
 }
